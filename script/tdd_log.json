@@ -262,9 +262,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0907f59c0b92c131ea8e886b989edf451561155f",
     "commitName": "feat: jugador 1 gana",
     "commitTimestamp": 1772516145643,
     "testId": 9
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1772516159297,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1772516170491,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: jugador 2 gana",
+    "commitTimestamp": 1772516210609,
+    "testId": 10
   }
 ]

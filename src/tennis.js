@@ -60,6 +60,9 @@ class Tennis {
     if (this.player1 === 4 && this.player2 === 3) {
   return "Advantage Player 1";
 }
+if (this.player1 === 3 && this.player2 === 4) {
+  return "Advantage Player 2";
+}
   }
 }
 

@@ -101,3 +101,19 @@ it("advantage player 1 despues de deuce", () => {
 
   expect(game.score()).toEqual("Advantage Player 1");
 });
+
+it("advantage player 2 despues de deuce", () => {
+  const game = new Tennis();
+
+  game.player1Scores();
+  game.player1Scores();
+  game.player1Scores();
+
+  game.player2Scores();
+  game.player2Scores();
+  game.player2Scores();
+
+  game.player2Scores();
+
+  expect(game.score()).toEqual("Advantage Player 2");
+});
