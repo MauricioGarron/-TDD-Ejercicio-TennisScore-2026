@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "efc1dcc53789e2ad4832eb069a7e42fdc7a7b669",
     "author": "Mauricio",
     "commit": {
       "date": "2026-03-03T04:59:54.000Z",
       "message": "feat: jugador 1 anota 40",
-      "url": "https://github.com/MauricioGarron/-TDD-Ejercicio-TennisScore-2026/commit/HEAD"
+      "url": "https://github.com/MauricioGarron/-TDD-Ejercicio-TennisScore-2026/commit/efc1dcc53789e2ad4832eb069a7e42fdc7a7b669"
     },
     "stats": {
       "total": 12,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2026-03-03T05:03:03.000Z",
+      "message": "feat: jugador 1 gana",
+      "url": "https://github.com/MauricioGarron/-TDD-Ejercicio-TennisScore-2026/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-03-03"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

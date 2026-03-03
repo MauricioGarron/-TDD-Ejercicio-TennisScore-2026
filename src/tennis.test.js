@@ -27,3 +27,12 @@ it("player 1 anota tres veces y llega a 40", () => {
   game.player1Scores();
   expect(game.score()).toEqual("40 - Love");
 });
+
+it("player 1 anota cuatro veces y gana el game", () => {
+  const game = new Tennis();
+  game.player1Scores();
+  game.player1Scores();
+  game.player1Scores();
+  game.player1Scores();
+  expect(game.score()).toEqual("Game for Player 1");
+});
