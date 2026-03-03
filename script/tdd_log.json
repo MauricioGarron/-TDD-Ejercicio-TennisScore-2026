@@ -54,9 +54,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4fd2d175da843c7114bcacfb4af44cf5a662ca43",
     "commitName": "feat: jugador 1 anota score 15",
     "commitTimestamp": 1772512190016,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 1,
+    "numTotalTests": 4,
+    "timestamp": 1772512227163,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1772512239651,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: jugador anota score 30",
+    "commitTimestamp": 1772513493412,
+    "testId": 2
   }
 ]
