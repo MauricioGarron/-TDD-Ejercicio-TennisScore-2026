@@ -1,31 +1,40 @@
 class Tennis {
   constructor() {
     this.player1 = 0;
+    this.player2 = 0;
   }
 
   player1Scores() {
     this.player1 += 1;
   }
 
+  player2Scores() {
+    this.player2 += 1;
+  }
+
   score() {
-    if (this.player1 === 0) {
+    if (this.player1 === 0 && this.player2 === 0) {
       return "Love - Love";
     }
 
-    if (this.player1 === 1) {
+    if (this.player1 === 1 && this.player2 === 0) {
       return "15 - Love";
     }
 
-    if (this.player1 === 2) {
+    if (this.player1 === 2 && this.player2 === 0) {
       return "30 - Love";
     }
 
-    if (this.player1 === 3) {
+    if (this.player1 === 3 && this.player2 === 0) {
       return "40 - Love";
     }
 
-    if (this.player1 === 4) {
+    if (this.player1 === 4 && this.player2 === 0) {
       return "Game for Player 1";
+    }
+
+    if (this.player1 === 0 && this.player2 === 1) {
+      return "Love - 15";
     }
   }
 }

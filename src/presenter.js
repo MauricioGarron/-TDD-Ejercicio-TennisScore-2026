@@ -11,3 +11,10 @@ player1Btn.addEventListener("click", () => {
   game.player1Scores();
   scoreElement.innerHTML = game.score();
 });
+
+const player2Btn = document.querySelector("#player2-btn");
+
+player2Btn.addEventListener("click", () => {
+  game.player2Scores();
+  scoreElement.innerHTML = game.score();
+});
