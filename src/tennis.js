@@ -42,6 +42,9 @@ class Tennis {
     if (this.player1 === 0 && this.player2 === 3) {
       return "Love - 40";
     }
+    if (this.player1 === 0 && this.player2 === 4) {
+      return "Game for Player 2";
+    }
   }
 }
 
