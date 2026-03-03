@@ -66,3 +66,38 @@ it("player 2 anota cuatro veces y gana el game", () => {
   game.player2Scores();
   expect(game.score()).toEqual("Game for Player 2");
 });
+it("cuando ambos llegan a 40 es Deuce", () => {
+  const game = new Tennis();
+
+  game.player1Scores();
+  game.player1Scores();
+  game.player1Scores();
+
+  game.player2Scores();
+  game.player2Scores();
+  game.player2Scores();
+
+  expect(game.score()).toEqual("Deuce");
+});
+it("cuando ambos anotan una vez es 15 - 15", () => {
+  const game = new Tennis();
+  game.player1Scores();
+  game.player2Scores();
+  expect(game.score()).toEqual("15 - 15");
+});
+
+it("advantage player 1 despues de deuce", () => {
+  const game = new Tennis();
+
+  game.player1Scores();
+  game.player1Scores();
+  game.player1Scores();
+
+  game.player2Scores();
+  game.player2Scores();
+  game.player2Scores();
+
+  game.player1Scores();
+
+  expect(game.score()).toEqual("Advantage Player 1");
+});
